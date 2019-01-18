@@ -191,4 +191,3 @@ prediction.tail()
 # Concate the prediction and test dataset
 pd.concat([test, prediction], axis = 1).plot()
 pd.concat([data,prediction], axis=1).plot()
-    
